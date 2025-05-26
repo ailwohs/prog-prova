@@ -3,7 +3,7 @@ deverá retornar o dia da semana (ex: se o usuário digitou 1, deverá retornar 
 digitar 0 (zero) o programa deverá encerrar. Se o usuário digitar algo fora deste escopo, o programa
 deverá retornar uma mensagem que foi digitada uma opção incorreta.'''
 
-num = input("Digite um número de 1 a 7 \t>")
+num=input("Digite um número de 1 a 7 \t>")
 while num != "0":
     if num == "1":
         print("Domingo")

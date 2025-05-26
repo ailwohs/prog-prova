@@ -8,17 +8,7 @@ e) A prazo em 5 vezes, deverá ser calculado com 9% de acréscimo.
 Ao final, exiba todas as opções com seus respectivos valores. Para os valores a prazo, exibir o preço
 original, o valor da parcela e também o preço final.'''
 
-'''
-
-n=float(input("Digite o valor da mercadoria \t>"))
-print("O valor da mercadoria é:", n)
-print("O valor a vista é:", n*90/100)
-print("O preço da mercadoria é de:", n , "No prazo de 2x fica:", n*5)
-print("O preço da mercadoria é de:", n , "No prazo de 3x fica:", n*6)
-print("O preço da mercadoria é de:", n , "No prazo de 4x fica:", n*7)
-print("O preço da mercadoria é de:", n , "No prazo de 5x fica:", n*9)
-'''
-
+#acho que é a implementação antiga - 2022
 '''num=int(input("Digite o valor da mercadoria\t>")
 print("O valor da mercadoria é" , num)
 print("O valor a vista é:", num*90/100)
@@ -40,3 +30,6 @@ print("O preço da mercadoria é de:", n, "No prazo de 2x fica:", n * 1.05, "- P
 print("O preço da mercadoria é de:", n, "No prazo de 3x fica:", n * 1.06, "- Parcelas de:", (n * 1.06) / 3)
 print("O preço da mercadoria é de:", n, "No prazo de 4x fica:", n * 1.07, "- Parcelas de:", (n * 1.07) / 4)
 print("O preço da mercadoria é de:", n, "No prazo de 5x fica:", n * 1.09, "- Parcelas de:", (n * 1.09) / 5)
+
+
+# errado ainda corrigir 
